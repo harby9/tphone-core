@@ -1,0 +1,31 @@
+{
+  "name": "@tphone-beta/core/lib/uni-migration",
+  "version": "2.0.0-alpha-33020211130001",
+  "description": "uni-app migration",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcloudio/uni-app.git",
+    "directory": "packages/uni-migration"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "uni-migration": "./bin/uni-migration.js"
+  },
+  "author": "fxy060608",
+  "license": "Apache-2.0",
+  "gitHead": "7bb03ce723a5028a241a5ae4bd010c17ab5ea6ee",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "fs-extra": "^8.1.0",
+    "mustache": "^3.1.0",
+    "recast": "*",
+    "stricter-htmlparser2": "^3.9.6"
+  }
+}
