@@ -89,16 +89,16 @@
     "puppeteer": "^3.0.1"
   },
   "uniPliguns": {
-    "@tphone-beta/core/lib/uni-app-plus": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-h5": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-360": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-alipay": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-baidu": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-kuaishou": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-qq": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-toutiao": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-mp-weixin": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-quickapp-native": "^2.0.0-31920210423001",
-    "@tphone-beta/core/lib/uni-quickapp-webview": "^2.0.0-31920210423001"
+    "uni-app-plus": "^2.0.0-31920210423001",
+    "uni-h5": "^2.0.0-31920210423001",
+    "uni-mp-360": "^2.0.0-31920210423001",
+    "uni-mp-alipay": "^2.0.0-31920210423001",
+    "uni-mp-baidu": "^2.0.0-31920210423001",
+    "uni-mp-kuaishou": "^2.0.0-31920210423001",
+    "uni-mp-qq": "^2.0.0-31920210423001",
+    "uni-mp-toutiao": "^2.0.0-31920210423001",
+    "uni-mp-weixin": "^2.0.0-31920210423001",
+    "uni-quickapp-native": "^2.0.0-31920210423001",
+    "uni-quickapp-webview": "^2.0.0-31920210423001"
   }
 }
