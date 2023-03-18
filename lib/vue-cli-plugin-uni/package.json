@@ -17,7 +17,6 @@
   "author": "fxy060608",
   "license": "Apache-2.0",
   "dependencies": {
-    "@tphone-beta/core/lib/uni-stat": "^2.0.0-alpha-33020211130001",
     "buffer-json": "^2.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^5.2.0",

@@ -1,0 +1,38 @@
+{
+  "name": "@tphone-beta/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf node_modules && rimraf dist && rimraf package-lock.json",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^2.78.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs-extra": "^8.1.0",
+    "module-alias": "^2.2.2",
+    "os": "^0.1.2"
+  },
+  "uniPliguns": {
+    "uni-app-plus": "^2.0.0-31920210423001",
+    "uni-h5": "^2.0.0-31920210423001",
+    "uni-mp-360": "^2.0.0-31920210423001",
+    "uni-mp-alipay": "^2.0.0-31920210423001",
+    "uni-mp-baidu": "^2.0.0-31920210423001",
+    "uni-mp-kuaishou": "^2.0.0-31920210423001",
+    "uni-mp-qq": "^2.0.0-31920210423001",
+    "uni-mp-toutiao": "^2.0.0-31920210423001",
+    "uni-mp-weixin": "^2.0.0-31920210423001",
+    "uni-quickapp-native": "^2.0.0-31920210423001",
+    "uni-quickapp-webview": "^2.0.0-31920210423001"
+  }
+}
