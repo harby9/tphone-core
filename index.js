@@ -10,11 +10,12 @@ moduleAlias.addAlias(
 );
 
 // const types = require('./lib/types');
-// const uniAppPlus = require('./lib/uni-app-plus');
+// const uniAppPlus = require('./lib/uni-app-plus'); es-module
 const uniAutomator = require('./lib/uni-automator');
 const uniCliI18n = require('./lib/uni-cli-i18n');
 const uniCliShared = require('./lib/uni-cli-shared');
-// const uniH5 = require('./lib/uni-h5');
+
+// const uniH5 = require('./lib/uni-h5'); 等待补充源码，重新打包
 // const uniHelperJson = require('./lib/uni-helper-json');
 // const uniI18n = require('./lib/uni-i18n');
 // const uniMigration = require('./lib/uni-migration');
