@@ -2,7 +2,7 @@
   "name": "@tphone/webpack-uni-mp-loader",
   "version": "2.0.0-alpha-33020211130001",
   "description": "webpack-uni-mp-loader",
-  "main": "index.js",
+  "main": "lib/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcloudio/uni-app.git",

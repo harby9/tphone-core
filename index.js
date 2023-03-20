@@ -17,22 +17,22 @@ const uniHelperJson = require('./lib/uni-helper-json');
 const uniI18n = require('./lib/uni-i18n');
 // const uniMigration = require('./lib/uni-migration'); //等待补充源码，重新打包
 // const uniMp360 = require('./lib/uni-mp-360'); // 等待补充源码，重新打包
-// const uniMpAlipay = require('./lib/uni-mp-alipay');
-// const uniMpBaidu = require('./lib/uni-mp-baidu');
-// const uniMpKuaishou = require('./lib/uni-mp-kuaishou');
-// const uniMpQq = require('./lib/uni-mp-qq');
-// const uniMpToutiao = require('./lib/uni-mp-toutiao');
-// const uniMpVue = require('./lib/uni-mp-vue');
-// const uniMpWeixin = require('./lib/uni-mp-weixin');
-// const uniQuickappNative = require('./lib/uni-quickapp-native');
-// const uniQuickappWebview = require('./lib/uni-quickapp-webview');
-// const uniStat = require('./lib/uni-stat');
-// const uniTemplateCompiler = require('./lib/uni-template-compiler');
+// const uniMpAlipay = require('./lib/uni-mp-alipay'); // 等待补充源码，重新打包
+// const uniMpBaidu = require('./lib/uni-mp-baidu'); // 等待补充源码，重新打包
+// const uniMpKuaishou = require('./lib/uni-mp-kuaishou'); // 等待补充源码，重新打包
+// const uniMpQq = require('./lib/uni-mp-qq'); // 等待补充源码，重新打包
+// const uniMpToutiao = require('./lib/uni-mp-toutiao'); // 等待补充源码，重新打包
+// const uniMpVue = require('./lib/uni-mp-vue'); // 等待补充源码，重新打包
+// const uniMpWeixin = require('./lib/uni-mp-weixin'); // 等待补充源码，重新打包
+// const uniQuickappNative = require('./lib/uni-quickapp-native'); // 等待补充源码，重新打包
+// const uniQuickappWebview = require('./lib/uni-quickapp-webview'); // 等待补充源码，重新打包
+// const uniStat = require('./lib/uni-stat'); //es-module
+// const uniTemplateCompiler = require('./lib/uni-template-compiler'); // 等待补充源码，重新打包
 // const vueCliPluginHbuilderx = require('./lib/vue-cli-plugin-hbuilderx');
 // const vueCliPluginUni = require('./lib/vue-cli-plugin-uni');
 // const vueCliPluginUniOptimize = require('./lib/vue-cli-plugin-uni-optimize');
-// const webpackUniMpLoader = require('./lib/webpack-uni-mp-loader');
-// const webpackUniPagesLoader = require('./lib/webpack-uni-pages-loader');
+const webpackUniMpLoader = require('./lib/webpack-uni-mp-loader');
+const webpackUniPagesLoader = require('./lib/webpack-uni-pages-loader');
 // const yjplUniLoader = require('./lib/yjpl-uni-loader');
 
 module.exports = {
@@ -60,7 +60,7 @@ module.exports = {
   // vueCliPluginHbuilderx,
   // vueCliPluginUni,
   // vueCliPluginUniOptimize,
-  // webpackUniMpLoader,
-  // webpackUniPagesLoader,
+  webpackUniMpLoader,
+  webpackUniPagesLoader,
   // yjplUniLoader
 }
