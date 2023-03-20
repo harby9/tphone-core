@@ -53,6 +53,7 @@
     "hash-sum": "^1.0.2",
     "postcss-urlrewrite": "^0.2.2",
     "strip-json-comments": "^2.0.1",
+    "semver": "^7.3.2",
     "base64-arraybuffer": "^0.2.0",
     "intersection-observer": "^0.7.0",
     "pako": "^1.0.11",

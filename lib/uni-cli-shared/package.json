@@ -21,7 +21,8 @@
   "dependencies": {
     "hash-sum": "^1.0.2",
     "postcss-urlrewrite": "^0.2.2",
-    "strip-json-comments": "^2.0.1"
+    "strip-json-comments": "^2.0.1",
+    "semver": "^7.3.2"
   },
   "gitHead": "7bb03ce723a5028a241a5ae4bd010c17ab5ea6ee"
 }
