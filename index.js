@@ -8,15 +8,15 @@ moduleAlias.addAliases({
 });
 
 // const types = require('./lib/types');
-// const uniAppPlus = require('./lib/uni-app-plus'); es-module
+// const uniAppPlus = require('./lib/uni-app-plus'); //es-module
 const uniAutomator = require('./lib/uni-automator');
 const uniCliI18n = require('./lib/uni-cli-i18n');
 const uniCliShared = require('./lib/uni-cli-shared');
-// const uniH5 = require('./lib/uni-h5'); 等待补充源码，重新打包
+// const uniH5 = require('./lib/uni-h5'); //等待补充源码，重新打包
 const uniHelperJson = require('./lib/uni-helper-json');
 const uniI18n = require('./lib/uni-i18n');
-// const uniMigration = require('./lib/uni-migration'); 等待补充源码，重新打包
-// const uniMp360 = require('./lib/uni-mp-360');
+// const uniMigration = require('./lib/uni-migration'); //等待补充源码，重新打包
+// const uniMp360 = require('./lib/uni-mp-360'); // 等待补充源码，重新打包
 // const uniMpAlipay = require('./lib/uni-mp-alipay');
 // const uniMpBaidu = require('./lib/uni-mp-baidu');
 // const uniMpKuaishou = require('./lib/uni-mp-kuaishou');
