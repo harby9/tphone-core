@@ -1,7 +1,7 @@
 {
-  "name": "@tphone-beta/core/lib/uni-stat",
+  "name": "@tphone/uni-stat",
   "version": "3.0.0-alpha-3000020210813002",
-  "description": "@tphone-beta/core/lib/uni-stat",
+  "description": "@tphone/uni-stat",
   "main": "dist/uni-stat.es.js",
   "module": "dist/uni-stat.es.js",
   "files": [

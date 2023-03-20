@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-mp-360",
+  "name": "@tphone/uni-mp-360",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-app mp-360",
   "main": "dist/index.umd.min.js",

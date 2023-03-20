@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/vue-cli-plugin-uni-optimize",
+  "name": "@tphone/vue-cli-plugin-uni-optimize",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-app optimize plugin for vue-cli 3",
   "main": "index.js",

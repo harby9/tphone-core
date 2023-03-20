@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-automator",
+  "name": "@tphone/uni-automator",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-app automator",
   "main": "dist/index.js",

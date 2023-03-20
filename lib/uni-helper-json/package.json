@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-helper-json",
+  "name": "@tphone/uni-helper-json",
   "version": "1.0.13",
   "description": "Vetur Definitions of uni-app components",
   "main": "dist/tags.json",

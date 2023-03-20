@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-quickapp-native",
+  "name": "@tphone/uni-quickapp-native",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-app quickapp-native",
   "main": "dist/vue.prod.js",

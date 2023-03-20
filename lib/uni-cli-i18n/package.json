@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-cli-i18n",
+  "name": "@tphone/uni-cli-i18n",
   "version": "2.0.2-3070320230222001",
   "description": "uni-cli-i18n",
   "main": "lib/index.js",

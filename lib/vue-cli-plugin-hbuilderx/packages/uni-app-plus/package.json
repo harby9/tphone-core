@@ -1,5 +1,5 @@
 {
-	"name": "@tphone-beta/core/lib/uni-app-plus",
+	"name": "@tphone/uni-app-plus",
 	"version": "0.0.1",
 	"description": "uni-app app-plus",
 	"main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-stat",
+  "name": "@tphone/uni-stat",
   "version": "2.0.0-v3-24020191018001",
   "description": "",
   "main": "dist/index.js",

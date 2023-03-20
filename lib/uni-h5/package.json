@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-h5",
+  "name": "@tphone/uni-h5",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-app h5",
   "main": "dist/index.umd.min.js",

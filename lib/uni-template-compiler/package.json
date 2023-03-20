@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/uni-template-compiler",
+  "name": "@tphone/uni-template-compiler",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-template-compiler",
   "main": "lib/index.js",

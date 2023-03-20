@@ -1,5 +1,5 @@
 {
-  "name": "@tphone-beta/core/lib/webpack-uni-pages-loader",
+  "name": "@tphone/webpack-uni-pages-loader",
   "version": "2.0.0-alpha-33020211130001",
   "description": "uni-app pages.json loader",
   "main": "lib/index.js",
