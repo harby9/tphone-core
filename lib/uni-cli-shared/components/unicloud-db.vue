@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { initVueI18n } from '@tphone-beta/core/lib/uni-i18n'
+import { initVueI18n } from '@tphone/core/lib/uni-i18n'
 import messages from './i18n/index'
 
 const { t } = initVueI18n(messages)

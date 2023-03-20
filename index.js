@@ -12,10 +12,9 @@ moduleAlias.addAliases({
 const uniAutomator = require('./lib/uni-automator');
 const uniCliI18n = require('./lib/uni-cli-i18n');
 const uniCliShared = require('./lib/uni-cli-shared');
-
 // const uniH5 = require('./lib/uni-h5'); 等待补充源码，重新打包
-// const uniHelperJson = require('./lib/uni-helper-json');
-// const uniI18n = require('./lib/uni-i18n');
+const uniHelperJson = require('./lib/uni-helper-json');
+const uniI18n = require('./lib/uni-i18n');
 // const uniMigration = require('./lib/uni-migration');
 // const uniMp360 = require('./lib/uni-mp-360');
 // const uniMpAlipay = require('./lib/uni-mp-alipay');
@@ -43,8 +42,8 @@ module.exports = {
   uniCliI18n,
   uniCliShared,
   // uniH5,
-  // uniHelperJson,
-  // uniI18n,
+  uniHelperJson,
+  uniI18n,
   // uniMigration,
   // uniMp360,
   // uniMpAlipay,
