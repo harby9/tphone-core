@@ -4,11 +4,11 @@ const {
   md5,
   parseEntry,
   normalizePath
-} = require('@tphone-beta/core/lib/uni-cli-shared')
+} = require('@tphone/core/lib/uni-cli-shared')
 
 const {
   pagesJsonJsFileName
-} = require('@tphone-beta/core/lib/uni-cli-shared/lib/pages')
+} = require('@tphone/core/lib/uni-cli-shared/lib/pages')
 
 const {
   getPages,

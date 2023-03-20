@@ -1,7 +1,7 @@
 const {
   hyphenate,
   getPlatformCompiler
-} = require('@tphone-beta/core/lib/uni-cli-shared')
+} = require('@tphone/core/lib/uni-cli-shared')
 
 const SRC_REGEX = /src="([^"]+)"/g
 module.exports = function compile (source, options) {

@@ -2,12 +2,10 @@ const path = require('path')
 const moduleAlias = require('module-alias');
 require('module-alias/register')
 const baseUrl = process.env.UNI_LINK ? 'node_modules/@tphone-beta/core' : '.';
-moduleAlias.addAlias(
-  '@tphone-beta/core', path.resolve(process.cwd(), baseUrl)
-);
-moduleAlias.addAlias(
-  '@tphone/core', path.resolve(process.cwd(), baseUrl)
-);
+moduleAlias.addAliases({
+  '@tphone-beta/core': path.resolve(process.cwd(), baseUrl),
+  '@tphone/core': path.resolve(process.cwd(), baseUrl),
+});
 
 // const types = require('./lib/types');
 // const uniAppPlus = require('./lib/uni-app-plus'); es-module
