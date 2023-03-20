@@ -1,22 +1,22 @@
 import {
   onThemeChange,
   offThemeChange,
-} from '@tphone-beta/core/types/uni-app/uni/base/ThemeChange';
+} from '@tphone/core/types/uni-app/uni/base/ThemeChange';
 import {
   onUnhandledRejection,
   offUnhandledRejection,
-} from '@tphone-beta/core/types/uni-app/uni/base/UnhandledRejectiond';
+} from '@tphone/core/types/uni-app/uni/base/UnhandledRejectiond';
 
 import {
   onError,
   offError
-} from '@tphone-beta/core/types/uni-app/uni/base/Error';
+} from '@tphone/core/types/uni-app/uni/base/Error';
 
 import {
   createMapContext
-} from '@tphone-beta/core/types/uni-app/uni/base/MapContext';
+} from '@tphone/core/types/uni-app/uni/base/MapContext';
 
-import { request } from '@tphone-beta/core/types/uni-app/uni/base/request';
+import { request } from '@tphone/core/types/uni-app/uni/base/request';
 
 declare global {
   interface Uni {

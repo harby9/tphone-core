@@ -1,9 +1,8 @@
 const path = require('path')
 const moduleAlias = require('module-alias');
 require('module-alias/register')
-const baseUrl = process.env.UNI_LINK ? 'node_modules/@tphone-beta/core' : '.';
+const baseUrl = process.env.UNI_LINK ? 'node_modules/@tphone/core' : '.';
 moduleAlias.addAliases({
-  '@tphone-beta/core': path.resolve(process.cwd(), baseUrl),
   '@tphone/core': path.resolve(process.cwd(), baseUrl),
 });
 

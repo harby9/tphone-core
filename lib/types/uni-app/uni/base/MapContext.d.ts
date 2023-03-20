@@ -1,4 +1,4 @@
-import { AsyncOptions } from '@tphone-beta/core/types/uni-app/uni/base/Utils';
+import { AsyncOptions } from '@tphone/core/types/uni-app/uni/base/Utils';
 
 declare global {
   namespace UniNamespace {
