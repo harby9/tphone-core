@@ -73,7 +73,6 @@ function mergeFinalPkg (packagesInfo) {
   rootPkg.peerDependencies = mergePeerDependencies;
   // json对象转回json
   const rootPkgJsonStr = JSON.stringify(rootPkg, null, 2);
-  console.log('ppppppp', rootPkgJsonStr);
   fse.writeFileSync(resolve(__dirname, 'package.json'), rootPkgJsonStr);
 }
 
