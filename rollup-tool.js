@@ -92,11 +92,42 @@ function pnpmInstall (dirPath) {
       stdio: 'inherit'
     });
 }
+/**
+ * 删除文件夹
+ * node 删除目录下所有文件，不能直接删，要把目录所有文件、子目录清空才能删除
+ * @param {*} dirPath 删除路径
+ */
+function deletDir (dirPath) {
+  console.log('pppppp', dirPath);
+  if (!fse.existsSync(dirPath)) return;
+  files = fse.readdirSync(dirPath);
+  files.map(file => {
+    const curPath = `${dirPath}/${file}`;
+    if (fse.statSync(curPath).isDirectory()) {
+      // 递归删除文件夹
+      deletDir(curPath);
+    } else {
+      // 删除文件
+      fse.unlinkSync(curPath);
+    }
+  });
+  // 删除当前空文件夹
+  fse.rmdirSync(dirPath)
+}
+
+function debuggerPackage (dirName, dirPath) {
+  // 先删除lib中对应的文件夹
+  const libDirPath = dirPath.replace('packages', 'lib');
+  deletDir(libDirPath)
+  // 将packages中对应的包复制进lib中
+  fse.copySync(dirPath, libDirPath)
+}
 
 module.exports = {
   resetPkgJson,
   getDirPathAndPkgJson,
   mergeFinalPkg,
-  pnpmInstall
+  pnpmInstall,
+  debuggerPackage
 }
 

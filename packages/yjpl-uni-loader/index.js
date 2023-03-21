@@ -8,8 +8,8 @@
  * loader卡住不动时，其他进程操作可以照旧
  */
 
-const { getTemplateAst, getScriptAst, getStyleAst } = require('./template-parser');
-const { traverseTemplate, traverseScript, traverseStyle, combineSourceCode } = require('./template-traverse')
+const { getTemplateAst, getScriptAst, getStyleAst } = require('./packages/page-parser');
+const { traverseTemplate, traverseScript, traverseStyle, combineSourceCode } = require('./packages/page-traverse')
 
 module.exports = function (content, map, meta) {
   // 获取template、script、style部分的ast

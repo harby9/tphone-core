@@ -32,7 +32,7 @@ const uniI18n = require('./lib/uni-i18n');
 // const vueCliPluginUniOptimize = require('./lib/vue-cli-plugin-uni-optimize');
 const webpackUniMpLoader = require('./lib/webpack-uni-mp-loader');
 const webpackUniPagesLoader = require('./lib/webpack-uni-pages-loader');
-// const yjplUniLoader = require('./lib/yjpl-uni-loader');
+const yjplUniLoader = require('./packages/yjpl-uni-loader');
 
 module.exports = {
   // types,
@@ -61,5 +61,5 @@ module.exports = {
   // vueCliPluginUniOptimize,
   webpackUniMpLoader,
   webpackUniPagesLoader,
-  // yjplUniLoader
+  yjplUniLoader
 }

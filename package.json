@@ -1,11 +1,11 @@
 {
   "name": "@tphone/core",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf node_modules && rimraf dist && rimraf package-lock.json",
+    "clean": "rimraf node_modules && rimraf pnpm-lock.yaml",
     "build": "rollup -c"
   },
   "author": "",
