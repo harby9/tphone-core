@@ -3,7 +3,7 @@ const commonjs = require('@rollup/plugin-commonjs');
 const json = require('@rollup/plugin-json');
 
 const { resolve } = require('path');
-const { resetPkgJson, getDirPathAndPkgJson, mergeFinalPkg, pnpmInstall, debuggerPackage } = require('./rollup-tool');
+const { resetPkgJson, getDirPathAndPkgJson, mergeFinalPkg, pnpmInstall } = require('./rollup-tool');
 
 // 重置package.json
 resetPkgJson();

@@ -115,19 +115,11 @@ function deletDir (dirPath) {
   fse.rmdirSync(dirPath)
 }
 
-function debuggerPackage (dirName, dirPath) {
-  // 先删除lib中对应的文件夹
-  const libDirPath = dirPath.replace('packages', 'lib');
-  deletDir(libDirPath)
-  // 将packages中对应的包复制进lib中
-  fse.copySync(dirPath, libDirPath)
-}
-
 module.exports = {
   resetPkgJson,
   getDirPathAndPkgJson,
   mergeFinalPkg,
   pnpmInstall,
-  debuggerPackage
+  deletDir
 }
 
