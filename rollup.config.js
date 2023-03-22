@@ -24,9 +24,9 @@ packagesInfo.map(info => {
   multipleEntries[`${dirName}/index`] = `${dirPath}/${pkgJson.main}`;
 });
 // lib目录下所有有效包的信息
-const libInfo = getDirPathAndPkgJson(resolve(__dirname, './lib'));
-mergeFinalPkg(packagesInfo.concat(libInfo));
-pnpmInstall();
+// const libInfo = getDirPathAndPkgJson(resolve(__dirname, './lib'));
+// mergeFinalPkg(packagesInfo.concat(libInfo));
+// pnpmInstall();
 
 module.exports = {
   input: multipleEntries,
